@@ -1,0 +1,32 @@
+{
+  "name": "@ispicyfish/markdown-it-mermaid",
+  "version": "0.1.0",
+  "description": "markdown-it plugin for mermaid",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha ./src/test/mermaid.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ISpicyfish/markdown-it-mermaid.git"
+  },
+  "keywords": [
+    "markdown-it-plugin",
+    "markdown-it",
+    "markdown",
+    "mermaid"
+  ],
+  "author": "ISpicyfish",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ISpicyfish/markdown-it-mermaid/issues"
+  },
+  "homepage": "https://github.com/ISpicyfish/markdown-it-mermaid#readme",
+  "dependencies": {
+    "mermaid": "^8.11.4"
+  },
+  "devDependencies": {
+    "markdown-it": "^12.2.0",
+    "mocha": "^9.0.3"
+  }
+}
