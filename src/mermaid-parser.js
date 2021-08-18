@@ -46,6 +46,10 @@ const functions = {
       })
       return parserMermaidTxt;
     } catch (error) {
+      var existErrorText = document.querySelector('div#d' + id);
+      if (existErrorText) {
+        existErrorText.parentNode.removeChild(existErrorText);
+      }
       return `<pre>\n${error}</pre>`
     }
 
